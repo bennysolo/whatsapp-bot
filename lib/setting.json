@@ -1,0 +1,19 @@
+{
+  "limitCount": "25",
+  "medialimitCount": "5",
+  "memberLimit": 10,
+  "superowner1": [
+    "6289636006352@c.us"
+  ],
+  "owner": [
+    "6285776308795@c.us"
+  ],
+  "groupLimit": "100",
+  "prefix": ".",
+  "mtc": false,
+  "restartState": false,
+  "restartId": "undefined",
+  "banChats": true,
+  "banChats2": true,
+  "Rest": true
+}
