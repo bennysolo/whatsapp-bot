@@ -3,7 +3,7 @@ const color = require('./lib/color')
 const { loader } = require('./function')
 const figlet = require('figlet')
 const fs = require('fs-extra')
-const bennymsg = require('./bennymsg5')
+const bennymsg = require('./bennymsg')
 const canvas = require('discord-canvas')
 const ownerNumber = JSON.parse(fs.readFileSync('./settings/owner.json'))
 const options = require('./options')
@@ -49,7 +49,7 @@ const start = (client = new Client()) => {
                 }
             })
         // Below is an watched version but it will affect the performance
-        require('./bennymsg5')(client, message)
+        require('./bennymsg')(client, message)
         // msgHandler(Benny, message)
     })
 
